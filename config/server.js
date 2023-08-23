@@ -3,7 +3,7 @@
 import express from 'express';
 import bodyParser from 'body-parser'; 
 import { exports } from "./default.js";
-import router from "../routes/index.route.js";
+import router from "../routes/index.routes.js";
 import middleware from "..//middlewares/index.middleware.js";
 import pgService from '../services/pg.service.js';
 
